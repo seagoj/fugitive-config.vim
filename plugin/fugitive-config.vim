@@ -16,5 +16,5 @@ endif
     map     <leader>>       :diffget //3<cr>:diffupdate<cr>]c
 " endif
 
-nnoremap    <F1>    :update<cr> :Git add %<cr> :Gstatus<cr>
+nnoremap    <F1>    :update<cr> :Gstatus<cr>
 nnoremap    <F2>    :Git push<cr>
