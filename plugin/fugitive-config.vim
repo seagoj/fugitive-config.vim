@@ -18,4 +18,4 @@ endif
 
 nnoremap    <F1>    :Gstatus<cr>
 nnoremap    <F2>    :Gcommit<cr>
-nnoremap    <F3>    :Gpush origin<cr>
+nnoremap    <F3>    :Gpush<cr>
