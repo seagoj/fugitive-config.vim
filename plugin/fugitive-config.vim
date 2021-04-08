@@ -7,15 +7,15 @@ endif
 
 " @todo - only map below if in diff
 " if &diff
-    highlight DiffAdd    cterm=bold ctermfg=10 ctermbg=17 gui=none guifg=bg guibg=Red
+    highlight DiffAdd	 cterm=bold ctermfg=10 ctermbg=17 gui=none guifg=bg guibg=Red
     highlight DiffDelete cterm=bold ctermfg=10 ctermbg=17 gui=none guifg=bg guibg=Red
     highlight DiffChange cterm=bold ctermfg=10 ctermbg=17 gui=none guifg=bg guibg=Red
-    highlight DiffText   cterm=bold ctermfg=10 ctermbg=88 gui=none guifg=bg guibg=Red
+    highlight DiffText	 cterm=bold ctermfg=10 ctermbg=88 gui=none guifg=bg guibg=Red
     set diffopt+=iwhite
-    map     <leader><       :diffget //2<cr>:diffupdate<cr>]c
-    map     <leader>>       :diffget //3<cr>:diffupdate<cr>]c
+    map     <leader><	    :diffget //2<cr>:diffupdate<cr>]c
+    map     <leader>>	    :diffget //3<cr>:diffupdate<cr>]c
 " endif
 
-nnoremap    <F1>    :Gstatus<cr>
-nnoremap    <F2>    :Gcommit<cr>
-nnoremap    <F3>    :Gpush origin<cr>
+nnoremap    <F1>    :Git status<cr>
+nnoremap    <F2>    :Git commit<cr>
+nnoremap    <F3>    :Git push origin<cr>
