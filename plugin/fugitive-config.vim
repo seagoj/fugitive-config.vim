@@ -15,7 +15,3 @@ endif
     map     <leader><	    :diffget //2<cr>:diffupdate<cr>]c
     map     <leader>>	    :diffget //3<cr>:diffupdate<cr>]c
 " endif
-
-nnoremap    <F1>    :Git status<cr>
-nnoremap    <F2>    :Git commit<cr>
-nnoremap    <F3>    :Git push origin<cr>
